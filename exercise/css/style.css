@@ -7,15 +7,29 @@ img {
 }
 
 body {
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-family: Montserrat, Helvetica, sans-serif;
+    line-height: 1.1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
+}
+
+ol {
+    line-height: 4rem;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
