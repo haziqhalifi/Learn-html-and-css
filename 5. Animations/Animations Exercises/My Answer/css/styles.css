@@ -1,0 +1,65 @@
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: inter, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.card {
+  width: 300px;
+  background: peachpuff;
+  border-radius: 10px;
+  box-shadow: 3px 3px rgba(87, 86, 86, 0.396);
+  transform: rotate(-5deg);
+  flex-direction: column;
+  display: inline-block;
+  max-width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card img {
+  max-width: 100%; /* Ensures the image doesn't overflow the box */
+  height: auto; /* Keeps the image aspect ratio */
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 15px 15px 0 15px;
+}
+
+p {
+  width: 100%;
+  margin: 0;
+}
+
+.content {
+  font-style: italic;
+}
+
+.profile {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  background: rgb(113, 107, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(113, 107, 224, 1) 0%,
+    rgba(237, 118, 118, 1) 100%
+  );
+  border-radius: 0 0 10px 10px;
+}
+
+.profile-photo {
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 50px;
+}

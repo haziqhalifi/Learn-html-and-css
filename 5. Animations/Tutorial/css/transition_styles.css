@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: gold;
+  width: 100px;
+  height: 100px;
+  /* transition: transform 2s linear 1s; */
+  transition: transform 1s, background 1s;
+}
+
+.box:hover {
+  transform: translate(100px, -70px);
+  background: dodgerblue;
+  color: white;
+}
